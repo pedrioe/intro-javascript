@@ -5,8 +5,13 @@
  * variables y retorne un string con las variables concatenadas.
  */
 
-function swapVariables(a, b) {
-  //Escribe tu codigo aqui
+function swapVariables (a, b) {
+  
+  let c = a;
+  a = b;
+  b = c;
+  return`${a} ${b}`;
+
 }
 
 module.exports = { swapVariables };
